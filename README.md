@@ -1,6 +1,6 @@
 # Rent Engine Technical Test
 
-This project is a technical test for applying to Rent Engine. It's a web application built using React and TypeScript, with a focus on demonstrating proficiency in these technologies.
+This project is a technical test for applying to Rent Engine. It's a web application built using React and MUI, with a focus on demonstrating proficiency in these technologies.
 
 The application uses Material UI for its user interface components. The tabs, tables, and other components are all from Material UI.
 
