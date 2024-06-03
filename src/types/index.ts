@@ -10,9 +10,9 @@ export interface RentEngineResponse {
   bedrooms: number;
   bathrooms: number;
   furnished: boolean | null;
-  property_type: PropertyType;
+  property_type: string;
   photos: string[];
-  pets_allowed: PetsAllowed;
+  pets_allowed: string;
   desired_lease_duration_months: number[];
   target_rental_rate: number;
 }
