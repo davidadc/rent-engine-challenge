@@ -3,6 +3,7 @@ import { Container, Tab, Tabs } from '@mui/material';
 import Box from '@mui/material/Box';
 
 import Table from './components/Table.tsx';
+import Charts from './components/Charts.tsx';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -55,7 +56,7 @@ function App() {
         </CustomTabPanel>
 
         <CustomTabPanel value={value} index={1}>
-          Charts
+          <Charts />
         </CustomTabPanel>
       </Container>
     </>
